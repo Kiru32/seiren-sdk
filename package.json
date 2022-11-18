@@ -1,0 +1,28 @@
+{
+  "name": "kiru-sdk",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "jeon.kiru@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kiru32/seiren-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kiru32/seiren-sdk.git",
+    "email": "jeon.kiru@numbers21.com"
+  },
+  "homepage": "https://github.com/Kiru32/seiren-sdk.git",
+  "keywords": [
+    "sui",
+    "seiren"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
