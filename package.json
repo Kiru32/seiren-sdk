@@ -1,11 +1,12 @@
 {
   "name": "kiru-sdk",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "author": "jeon.kiru@gmail.com",
   "license": "MIT",
