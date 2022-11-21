@@ -20,9 +20,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
+          node-version: 16
           registry-url: "https://registry.npmjs.org"
       # 배포를 위한 명령어들
       - run: npm install
